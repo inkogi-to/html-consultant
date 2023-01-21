@@ -1,6 +1,9 @@
 @import "scss/base/reset";
 @import "scss/base/typography";
+@import "scss/base/base";
+
 @import "scss/utilities/variables";
 
 @import 'scss/layout/navbar';
 @import 'scss/layout/header';
+@import 'scss/layout/section-industry';

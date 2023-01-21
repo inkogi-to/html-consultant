@@ -1,0 +1,52 @@
+.container-industry {
+  padding: 0 42px;
+}
+
+.industry {
+  padding: 70px 0;
+
+  &__title {
+    @extend %title;
+  }
+
+  &__text {
+    @extend %text;
+    margin: 0 auto 45px auto;
+  }
+
+  &__item {
+    padding: 30px 35px;
+    margin: 0 auto;
+    border: 1px solid #E8E8E8;
+    position: relative;
+    max-width: 330px;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  &__title-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  &__icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+
+  &__item-title {
+    @extend %tittle-items;
+
+
+  }
+
+  &__item-text {
+    @extend %text-items;
+  }
+}
+
+
